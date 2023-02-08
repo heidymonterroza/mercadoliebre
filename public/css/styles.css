@@ -1,0 +1,182 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #EAC926;;
+  background-size: cover;
+font-family: 'Roboto', sans-serif;
+  padding: 1%;
+  
+      }
+
+  header *{
+    box-sizing: content-box;
+  }    
+
+
+.details{
+  border-top: 1px solid rgba(51,51,51,.1);
+  padding: 20px 16px;
+  position: relative;
+}
+
+.wrapper{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 95%;
+  text-align: center;
+}
+
+.image{
+  text-align: center;
+}
+ main section{
+  background-color: #ebebeb;
+}
+
+main section article{
+  position: relative;
+  background-color: white;
+  margin: 6px;
+  margin: 0 auto;
+
+  
+}
+
+main section article .details i{
+  display: block;
+  font-size: 16px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #39b54a;
+  background-color: #FFF;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: -15px;
+}
+
+
+ body{
+  font-family: 'Roboto', sans-serif;
+ }       
+
+.celeste{
+  color:#1259c3;
+}
+
+.container{
+    margin: 0 20px;
+    padding: 30px 0;
+}
+.info-slide{
+  text-align: center;
+}
+
+.recientes {
+    text-align: center;
+    background-color: rgb(197, 192, 192);
+  }
+
+ section h2{
+  font-size: 24px;
+ } 
+
+
+h6{
+font-weight: 200;
+}
+
+.burger-menu{
+  height: 15px;
+  width: 15px;
+  padding: 4px 6px;
+  border-radius: 3px;
+  background-color: blueviolet;
+  margin: 0 auto; 
+}
+
+.precios{
+  font-size: 18px;
+  width: 40%;
+  display:inline-block;
+  align-items: center;
+  overflow: hidden;
+   min-height: inherit;
+}
+
+.descuentos{
+  color:#39b54a;;
+  width: 60%;
+  font-size: 16px;
+  margin:1px;
+  align-items: center;
+  overflow: hidden;
+  min-height: inherit;
+  display:inline-block;
+}
+ .descripcion{
+  font-size: 16px;
+  margin:1px;
+} 
+
+.prices{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.carousel{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 25%;
+  background-color: #ebebeb;
+  padding: 10px;
+}
+
+
+@media (max-width: 767px) {
+  .carousel .wrapper{
+    flex: 100%;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .navegador{
+    display: none;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 950px) {
+  .carousel .wrapper {
+    flex: 50%;
+  }
+}
+
+@media (min-width: 951px) {
+  .carousel .wrapper {
+    flex: 25%;
+  }
+}
+
+.container-register{
+  margin: 5px;
+  padding: 5px;
+  background-color: #ebebeb;
+}
+
+input[type='submit']{
+  background-color: #3483fa;
+  border-color: transparent;
+  color: #fff;
+  border-radius: 2px;
+  padding: 2px 12px;
+}  
