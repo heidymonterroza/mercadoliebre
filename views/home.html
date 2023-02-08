@@ -12,6 +12,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="/css/normalize.css">
+    <script type="text/javascript">
+        function toggleMenu() {
+            var x = document.getElementById("navegador");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
 </head>
 
 <body>
@@ -25,7 +35,7 @@
                 </button>
             </div>
             <p>Compra en cuotas sin tarjetas de credito <i class="fas fa-hand-holding-usd"></i></p>
-            <div class="navegador">
+            <div id="navegador" class="navegador">
                 <ul>
                     <li><a href="#">Ofertas</a></li>
                     <li><a href="#">Tiendas oficiales</a></li>
@@ -38,8 +48,9 @@
             </div>
 
 
-            <div class="burger-menu">
-                <i style="color:white; box-sizing: content-box !important;" class="fas fa-bars"></i>
+            <div class="burger-menu" onclick="toggleMenu()">
+                    <i style="color:white; box-sizing: content-box !important;" class="fas fa-bars"></i>
+                </div>
             </div>
 
 
