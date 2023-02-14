@@ -12,52 +12,47 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="/css/styles.css">
-    
-    <script type="text/javascript">
-        function toggleMenu() {
-            var x = document.getElementById("navegador");
-            if (x.style.display === "none") {
-                x.style.display = "block";
-            } else {
-                x.style.display = "none";
-            }
-        }
-    </script>
-</head>
 
+</head>
 <body>
     <header>
-        <div class="top-header">
-            <img src="/images/logo-mercado-liebre.svg" width="200" alt="Logo de mercado liebre en footer">
-        </div>
-         <div class="form">
-                <input type="text" name="search" placeholder="Buscar productos, marcas y más…">
-                <button type="submit">
-                    <i class="fas fa-search"></i>
-                </button>
-            </div>
-            <p><i class="fas fa-hand-holding-usd"></i>Compra en cuotas sin tarjetas de credito </p>
-         <div id="navegador" class="navegador">
+        <div class="logo-cont"> 
+            <div class="logo-bar-cont">
+                <div class="logo">
+                    <img src="/images/logo-mercado-liebre.svg" alt="Logo de mercado liebre en footer">
+                </div>
+                <div class="search-button-cont">
+                    <div class="search-cont">
+                        <input type="text" placeholder="Buscar productos, marcas y más">
+                        <button><i class="fas fa-search"></i></button>
+                    </div>                                
+                </div>
+            </div>    
+            <div class="card-cont">
+                <h2 class="card-icon"><i class="fas fa-hand-holding-usd"></i> Comprá en cuotas y sin tarjeta de crédito<h2>
+            </div>    
+        </div>    
+        <nav class="navegador-cont">
                 <ul>
                     <li><a href="#">Ofertas</a></li>
                     <li><a href="#">Tiendas oficiales</a></li>
                     <li><a href="#">Vender</a></li>
                     <li><a href="#">Ayuda</a></li>
+                </ul>
+                <ul>    
                     <li><a href="/register">Crea tu cuenta </a><i class="fas fa-id-card"></i></li>
                     <li><a href="/login">Ingresa </a><i class="fas fa-sign-in-alt"></i></li>
                     <li><a href="#">Mis compras </a><i class="fas fa-shopping-basket"></i></li>
                 </ul>
-            </div>
-            <div class="burger-menu" onclick="toggleMenu()">
-                    <i style="color:white; box-sizing: content-box !important;" class="fas fa-bars"></i>
-                </div>
-            </div>
         </nav>
-
+        <div class="burger-cont">
+             <div class="burger-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
     </header>
     <section class="banner">
         <img src="/images/img-home-banner.jpg" alt="">
-
     </section>
 
     <main>
