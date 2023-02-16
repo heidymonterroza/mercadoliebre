@@ -103,7 +103,7 @@ width: 90%;
 
 
 
-input{
+.search{
  width: 95%;
  border: none;
  background-color: white;
@@ -242,14 +242,6 @@ main section article {
   padding: 5px;
   background-color: #ebebeb;
 }
-
-input[type='submit']{
-  background-color: #3483fa;
-  border-color: transparent;
-  color: #fff;
-  border-radius: 2px;
-  padding: 2px 12px;
-}  
 
 
 /*********************************Footer**********************************/
